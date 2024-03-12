@@ -98,6 +98,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "pokemap:build:production",
+              "serveTarget": "pokemap:serve:production"
+            },
+            "development": {
+              "buildTarget": "pokemap:build:development",
+              "serveTarget": "pokemap:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

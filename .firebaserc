@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pokemap-1d84d": {
+      "hosting": {
+        "pokemap": [
+          "pokemap-1d84d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pokemap-1d84d"
+  }
+}
