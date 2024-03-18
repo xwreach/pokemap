@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getAuth, provideAuth } from '@angular/fire/auth';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { BanniereHauteComponent } from './banniere-haute/banniere-haute.component';
+import { SlideShowComponent } from './slide-show/slide-show.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BanniereHauteComponent,
+    SlideShowComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

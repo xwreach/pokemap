@@ -1,0 +1,102 @@
+*{
+    padding: 0dvw;
+    margin: 0dvw;
+}
+.header {
+    background: linear-gradient(darkred,#E73E33, darkred);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100dvw;
+    height: 10dvh;
+    padding: 2dvh; /* Hauteur uniforme */
+    line-height: 5dvh; /* Centrage vertical */
+    box-sizing: border-box; /* Inclure le padding dans la largeur */
+    margin: 0;
+    top: 0;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100dvw;
+    gap: 1dvw;
+}
+.menu li {
+    font-size: 3dvh;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.Acceuil{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu li img {
+    vertical-align: middle;
+    height: 4dvh;
+}
+.active{
+    color: gold;
+}
+.Onglet{
+    color: white;
+}
+.Onglet:hover {
+    color: gold;
+}
+.Acceuil{
+    color:white;
+}
+.Acceuil:hover{
+    color: white;
+}
+
+
+.login {
+    display: flex; /* Utilise flexbox */
+    align-items: center; /* Aligne verticalement le contenu */
+    margin-left: auto;
+}
+
+.login button {
+    background-color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    border: none;
+    padding: 2dvh 2dvw;
+    font-size: 6dvh 6dvw;
+    cursor:progress;
+    border-radius: 10dvw 10dvh;
+    height: 6dvh;
+}
+
+.login button:hover {
+    background-color: darkred;
+    color: white;
+}
+.subscribe{
+    display: flex;
+    align-items: center; /* Aligne verticalement le contenu */
+    margin-right: 4dvw;  
+}
+.subscribe button{
+    background-color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    border: none;
+    padding: 2dvh 2dvw;
+    font-size: 5dvh 5dvw;
+    cursor: pointer;
+    border-radius: 10dvw 10dvh;
+    height: 6dvh;
+}
+.subscribe button:hover {
+    background-color: darkred;
+    color: white;
+}
