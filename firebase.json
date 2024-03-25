@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "pokemap",
+      "target": "pokemapweb",
       "source": ".",
       "frameworksBackend": {}
     }

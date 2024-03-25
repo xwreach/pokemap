@@ -2,7 +2,7 @@
   "targets": {
     "pokemap-1d84d": {
       "hosting": {
-        "pokemap": [
+        "pokemapweb": [
           "pokemap-1d84d"
         ]
       }

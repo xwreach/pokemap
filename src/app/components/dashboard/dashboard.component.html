@@ -1,0 +1,12 @@
+<div *ngIf="authService.userData as user">
+    <p>
+      Email : <strong>{{ user.email }}</strong>
+    </p>
+    <p>
+      Last Name : <strong>{{ user.lastName }}</strong>
+    </p>
+    <p>
+      First Name : <strong>{{ user.firstName }}</strong>
+    </p>
+    <button (click)="authService.signOut()">Se déconnecter</button>
+</div>

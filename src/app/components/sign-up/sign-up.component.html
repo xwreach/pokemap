@@ -1,0 +1,9 @@
+<input type="email" #userEmail />
+<input type="password" #userPwd />
+<input type="text" #userLastName />
+<input type="text" #userFirstName />
+<input
+  type="button"
+  (click)="authService.signUp(userEmail.value, userPwd.value, userLastName.value, userFirstName.value)"
+  value="S'inscrire"
+/>
