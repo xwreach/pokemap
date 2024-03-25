@@ -15,10 +15,16 @@ export class DashboardComponent implements OnInit {
     ) {}
   ngOnInit(): void {}
 
-  public getPkmn(){
-    this.apiService.getPokemon(this.PokemonId).subscribe(a => {
+  public getPkmn(pkmnID:number){
+    this.apiService.getPokemon(pkmnID).subscribe(a => {
       console.log(a)
     })
   }
-  
+
+  public getRandomInt(min:number, max:number) {
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+  }
 }
+
